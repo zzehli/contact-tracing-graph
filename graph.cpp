@@ -12,7 +12,7 @@ using namespace std;
 void menu::intro()
 {
    cout<<"==============Welcome!=============\n";
-   cout<<"Welcome to the contract tracing manager!\n";
+   cout<<"Welcome to the contact tracing manager!\n";
    cout<<"Start by entering the names you want to add. \n";
 }
 
@@ -101,7 +101,7 @@ void menu::insert_edges(table & new_tree)
       cout<<"Please specify the person you are looking for\n";
       cin.get(anotherName,SHORT,'\n');
       cin.ignore(100,'\n');
-      cout<<"Please specify the name person they are in contact with:\n";
+      cout<<"Please specify the name of person they are in contact with:\n";
       cin.get(contactName, SHORT, '\n');
       cin.ignore(100,'\n');
       int num = new_tree.insert_edge(contactName, anotherName);
