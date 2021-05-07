@@ -1,6 +1,6 @@
 # CLI program for contact tracing
 
-This project is a class assignment to implement a graph structure with adjacency list. It is built from scrach, without using standard libraries. The program store contact information and connections among existing records. You can view your entire records or traverse them with BFS or DFS.
+This project is a class assignment that implements a graph structure with adjacency list. It is built from scrach, without using standard libraries. The program store contact information and connections among existing records. You can view your entire records or traverse them with BFS or DFS.
 
 To run the program, compile with:
 ```
